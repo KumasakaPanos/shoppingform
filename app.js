@@ -73,8 +73,3 @@ function OrderObject(product,quantity){
   this.product=product;
   this.quantity=quantity;
 }
-function FullOrder(orders){
-  this.orders=orders;
-  this.address=document.getElementById('address').value+", "+document.getElementById('city').value+", "+document.getElementById('state').value;
-  this.zipCode=document.getElementById('zipCode').value;
-}
